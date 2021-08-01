@@ -5,7 +5,8 @@ const status = document.body.querySelector('.status');
 const turn = document.body.querySelector('.turn');
 let gameTurns = 0;
 let gameStatus = '';
-const gameState = ["","","","","","","","",""];
+let gameState = ["","","","","","","","",""];
+const button = document.body.querySelector('button');
 
 ////////////////////////////////
 // Functions For Game Logic Here
@@ -46,11 +47,25 @@ function checkStatus(gameTurns) {
   if (gameStatus !== '') {
     status.innerHTML = gameStatus
     status.style.opacity = 1
-    console.log(gameState)
     for (let i = 0; i < cells.length; i++) {
       cells[i].classList.add('won');
     }
   }
+}
+
+function resetGame() {
+  for (let i = 0; i < cells.length; i++) {
+    cells[i].classList.remove('x')
+    cells[i].classList.remove('o')
+    cells[i].classList.remove('won')
+    cells[i].innerHTML = ""
+  }
+  status.style.opacity = 0
+  gameStatus = ''
+  gameTurns = 0
+  gameState = ["","","","","","","","",""]
+  xTurn = true
+  turn.innerHTML = 'Current Turn: X'
 }
 
 ////////////////////////////////
@@ -79,5 +94,7 @@ for (let i = 0; i < cells.length; i++) {
     }
   });
 };
+
+button.addEventListener('click', resetGame)
 
 ////////////////////////////////

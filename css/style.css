@@ -36,6 +36,10 @@ body {
   cursor: no-drop;
 }
 
+button {
+  font-size: 25px;
+}
+
 .won {
   cursor: no-drop;
 }
