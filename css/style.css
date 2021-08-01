@@ -1,25 +1,66 @@
 /* Play around with your CSS! Have fun with creating your own unique designs and playing around with different rules */
+
 h1 {
-  color: purple;
+  color: black;
+  text-align: center;
+  order: 0;
+  font-size: 50px;
+}
+
+.control {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 body {
   display: flex;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../Web-Page-Background.jpg");
+}
+
+.x {
+  content: 'x';
+  font-size: 250px;
+}
+
+.o {
+  content: 'o';
+  font-size: 250px;
+}
+
+.o,
+.x {
+  cursor: no-drop;
+}
+
+.won {
+  cursor: no-drop;
+}
+
+.status {
+  text-align: center;
+  opacity: 0;
 }
 
 .game-board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 50px;
-  padding: 50px;
-  background: blue;
+  margin: 100px 50px;
+  padding: 0;
+  background: grey;
   grid-gap: 15px;
+  cursor: pointer;
 }
 
 .cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 200px;
   width: 200px;
-  background: yellow;
+  background:white;
 }
