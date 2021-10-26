@@ -7,7 +7,7 @@
 ![Tic Tac Toe](https://vuejsexamples.com/content/images/2017/03/Tic-Tac-Toe.gif)
 
 >## *Description*
-Play a classic game of Tic-Tac-Toe in this web app developed with HTML, CSS, and JavaScript. This project uses simple JavaScript logic and DOM manipulation to create a smooth expereince for the player!
+Play a classic game of Tic-Tac-Toe in this web app developed with HTML, CSS, and JavaScript. This project uses simple JavaScript logic and DOM manipulation to create a smooth expereince for the player! *Game is not currently compatible with mobile display sizes.*
 
 ---
 
