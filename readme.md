@@ -29,5 +29,5 @@ Play a classic game of Tic-Tac-Toe in this web app developed with HTML, CSS, and
 
 >## *Future Updates*
 
-- [ ] additional CSS styling to improve appearance and make the game compatible with mobile displays.
+- [ ] Additional CSS styling to improve appearance and make the game compatible with mobile displays.
 - [ ] Implementing a single player mode that would allow the user to play against a computer player.
