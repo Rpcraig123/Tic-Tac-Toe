@@ -2,7 +2,7 @@
 ### Date Started: 7/30/21
 ### By: Ryan Craig
 
-[LinkedIn](https://www.linkedin.com/in/ryancraigeit/) | [GitHub](https://github.com/Rpcraig123/Tic-Tac-Toe) | [Deployed Link](https://pacific-bayou-56761.herokuapp.com/)
+[LinkedIn](https://www.linkedin.com/in/ryancraigeit/) | [Deployed Link](https://tic-tac-toe-rc.surge.sh/)
 
 ![Tic Tac Toe](https://vuejsexamples.com/content/images/2017/03/Tic-Tac-Toe.gif)
 
